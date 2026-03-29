@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "a56c3281-40b7-4048-95ca-500415dc80a4")
-	(paper "A1")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x08_Counter_Clockwise"
 			(pin_names
@@ -3394,19 +3394,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "we use MCP23017 internal pull-ups"
-		(exclude_from_sim no)
-		(at 965.454 165.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "189aea04-6e35-489e-845f-7a3bbed0e277")
-	)
 	(text "not used \nfor mode 1\ndatasheet\nsay to connect\nto GND or VCC"
 		(exclude_from_sim no)
-		(at 385.318 158.496 0)
+		(at 210.058 120.396 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3416,7 +3406,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 435.102 220.218 0)
+		(at 235.204 106.172 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3428,7 +3418,7 @@
 	)
 	(text "1101011b = 0x5B"
 		(exclude_from_sim no)
-		(at 423.672 167.64 0)
+		(at 248.412 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3438,7 +3428,7 @@
 	)
 	(text "SDO = I2C\nleast\nsignificant\nbit for\naddress"
 		(exclude_from_sim no)
-		(at 399.288 160.528 0)
+		(at 224.028 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3448,7 +3438,7 @@
 	)
 	(text "I2C mode"
 		(exclude_from_sim no)
-		(at 387.858 190.754 0)
+		(at 212.598 152.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,7 +3448,7 @@
 	)
 	(text "battery Cell\n"
 		(exclude_from_sim no)
-		(at 275.59 192.024 0)
+		(at 52.07 23.368 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3470,7 +3460,7 @@
 	)
 	(text "button"
 		(exclude_from_sim no)
-		(at 236.474 139.192 0)
+		(at 39.624 117.602 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3482,7 +3472,7 @@
 	)
 	(text "duplicated to infer rotation / translation\naround real donut center.\nif not wanted, leave unpopulated"
 		(exclude_from_sim no)
-		(at 434.848 200.152 0)
+		(at 259.588 162.052 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3492,7 +3482,7 @@
 	)
 	(text "IR proximity"
 		(exclude_from_sim no)
-		(at 329.184 136.398 0)
+		(at 235.204 24.638 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3502,19 +3492,9 @@
 		)
 		(uuid "def20ae8-9613-4cf6-b2a0-bc56d13d8390")
 	)
-	(text "Buttons/switch"
-		(exclude_from_sim no)
-		(at 973.074 158.242 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "e07b7c22-ac6a-4b72-859f-f82f494393e3")
-	)
 	(text "connector"
 		(exclude_from_sim no)
-		(at 329.946 28.194 0)
+		(at 139.446 24.384 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3526,7 +3506,7 @@
 	)
 	(text "LED"
 		(exclude_from_sim no)
-		(at 316.992 274.574 0)
+		(at 136.906 114.808 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3537,186 +3517,168 @@
 		(uuid "f338af2c-03e0-4238-be38-f60d99f9c2fb")
 	)
 	(junction
-		(at 309.88 220.98)
+		(at 128.27 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b18d4e4-55ca-4100-8f37-928e45c5cfd7")
 	)
 	(junction
-		(at 309.88 255.27)
+		(at 128.27 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c132c18-3846-4dbd-b5d2-5ad104fc7465")
 	)
 	(junction
-		(at 1008.38 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1edc5289-57cb-4876-86b6-cc0ca28ea49b")
-	)
-	(junction
-		(at 942.34 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f96081d-7d95-4f14-a422-a4b4e3137cd7")
-	)
-	(junction
-		(at 273.05 181.61)
+		(at 48.26 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3221a3d5-b051-4810-9412-5697dc50c66b")
 	)
 	(junction
-		(at 308.61 156.21)
+		(at 214.63 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35f4f8cc-cc55-4fad-87ff-254f85fd8b9b")
 	)
 	(junction
-		(at 293.37 220.98)
+		(at 111.76 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e4e81db-7c38-41fc-94b1-4dc4f7bd07b3")
 	)
 	(junction
-		(at 346.71 220.98)
+		(at 165.1 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5213616e-3f9d-461a-8f62-305d78ce9881")
 	)
 	(junction
-		(at 293.37 255.27)
+		(at 111.76 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c263c3a-9795-4cd5-864a-84b33a7c12fc")
 	)
 	(junction
-		(at 313.69 220.98)
+		(at 132.08 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5edb33-1569-447a-b6a6-22b860c6bb8b")
 	)
 	(junction
-		(at 326.39 220.98)
+		(at 144.78 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88da5c7e-b52e-4f1b-8fcc-4eb21d709821")
 	)
 	(junction
-		(at 393.7 165.1)
+		(at 218.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89efaaba-ff81-41d0-9821-6a1fa50367e3")
 	)
 	(junction
-		(at 411.48 165.1)
+		(at 236.22 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ffab308-65cf-4eea-a9ba-fde1d5f0f1bd")
 	)
 	(junction
-		(at 276.86 220.98)
+		(at 95.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "937ac12a-c60e-42e6-9603-1567e4601707")
 	)
 	(junction
-		(at 273.05 156.21)
+		(at 48.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "983c2dcf-4bb0-4b39-924c-32209c1c0aee")
 	)
 	(junction
-		(at 393.7 176.53)
+		(at 218.44 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43c620f-47fd-4af0-9ea6-380e4ea41182")
 	)
 	(junction
-		(at 330.2 220.98)
+		(at 148.59 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b51118bc-d3fe-4b62-94d3-e9c1a1e64037")
 	)
 	(junction
-		(at 276.86 255.27)
+		(at 95.25 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0ff698d-999c-4820-8b02-4fb4e069669e")
 	)
 	(junction
-		(at 308.61 176.53)
+		(at 214.63 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c82c625a-9879-43a0-ad6e-5223ccd26301")
 	)
 	(junction
-		(at 383.54 176.53)
+		(at 208.28 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca9da8cb-744e-4476-880f-36bd61fc0c1d")
 	)
 	(junction
-		(at 342.9 220.98)
+		(at 161.29 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d007ab51-fa0a-4b5b-9fc0-94b2e6fcadfb")
 	)
 	(junction
-		(at 412.75 165.1)
+		(at 237.49 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d948ead7-553b-4ba7-9138-45eb08e31b55")
 	)
 	(junction
-		(at 342.9 255.27)
+		(at 161.29 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df7e63fa-6101-4aa6-9aa6-a7ba51fc3201")
 	)
 	(junction
-		(at 280.67 220.98)
+		(at 99.06 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e94213d6-fdfd-4f93-8fee-d9cd5fcfe5cd")
 	)
 	(junction
-		(at 247.65 180.34)
+		(at 50.8 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e944a0d7-662e-4458-8a95-f4aa6ad21c02")
 	)
 	(junction
-		(at 297.18 220.98)
+		(at 115.57 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea9e48c6-712a-4159-837b-e01814f19f44")
 	)
 	(junction
-		(at 942.34 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaf93803-6ea9-46ae-86d5-65d2d5843165")
-	)
-	(junction
-		(at 326.39 255.27)
+		(at 144.78 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f22e4709-1b06-4bca-9803-6b1caf034d15")
 	)
 	(junction
-		(at 359.41 220.98)
+		(at 177.8 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff81d233-ce7c-4f8a-bd5e-449140d425a5")
 	)
 	(no_connect
-		(at 426.72 176.53)
+		(at 251.46 138.43)
 		(uuid "97ab3d0b-1b8b-4d32-8d91-29f9ddae932a")
 	)
 	(wire
 		(pts
-			(xy 383.54 186.69) (xy 383.54 189.23)
+			(xy 208.28 148.59) (xy 208.28 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3726,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 255.27) (xy 309.88 255.27)
+			(xy 111.76 160.02) (xy 128.27 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 176.53) (xy 245.11 180.34)
+			(xy 48.26 154.94) (xy 48.26 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3746,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 222.25) (xy 313.69 220.98)
+			(xy 132.08 127) (xy 132.08 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3756,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 175.26) (xy 273.05 181.61)
+			(xy 48.26 59.69) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3766,17 +3728,17 @@
 	)
 	(wire
 		(pts
-			(xy 929.64 182.88) (xy 933.45 182.88)
+			(xy 114.3 66.04) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f098d12-f0b2-4ba7-b4f0-035cd2b3f5fc")
+		(uuid "0ef8b119-1ff2-4ce3-9d08-0767a2de4596")
 	)
 	(wire
 		(pts
-			(xy 308.61 176.53) (xy 308.61 182.88)
+			(xy 214.63 64.77) (xy 214.63 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3786,7 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 72.39) (xy 336.55 72.39)
+			(xy 144.78 68.58) (xy 146.05 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3796,37 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 986.79 187.96) (xy 989.33 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "115ab4ac-90a5-42ef-956e-de1b4772a109")
-	)
-	(wire
-		(pts
-			(xy 1008.38 182.88) (xy 1008.38 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1240c777-81de-422c-980f-6537000d5674")
-	)
-	(wire
-		(pts
-			(xy 337.82 67.31) (xy 335.28 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1629b4c4-9f6a-4ffe-a57e-505bb29185bb")
-	)
-	(wire
-		(pts
-			(xy 271.78 181.61) (xy 273.05 181.61)
+			(xy 46.99 66.04) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3836,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 220.98) (xy 326.39 220.98)
+			(xy 132.08 125.73) (xy 144.78 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3846,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 176.53) (xy 308.61 176.53)
+			(xy 213.36 64.77) (xy 214.63 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3856,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 165.1) (xy 383.54 166.37)
+			(xy 208.28 127) (xy 208.28 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 168.91) (xy 347.98 168.91)
+			(xy 251.46 57.15) (xy 254 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 220.98) (xy 342.9 232.41)
+			(xy 161.29 125.73) (xy 161.29 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3886,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 222.25) (xy 363.22 220.98)
+			(xy 181.61 127) (xy 181.61 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3896,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 165.1) (xy 393.7 165.1)
+			(xy 208.28 127) (xy 218.44 127)
 		)
 		(stroke
 			(width 0)
@@ -3906,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 247.65) (xy 276.86 255.27)
+			(xy 95.25 152.4) (xy 95.25 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3916,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 180.34) (xy 247.65 181.61)
+			(xy 50.8 158.75) (xy 50.8 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3926,7 +3858,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 220.98) (xy 313.69 220.98)
+			(xy 128.27 125.73) (xy 132.08 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3936,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 220.98) (xy 359.41 232.41)
+			(xy 177.8 125.73) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3946,7 +3878,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 229.87) (xy 363.22 231.14)
+			(xy 181.61 134.62) (xy 181.61 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3956,7 +3888,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 181.61) (xy 355.6 181.61)
+			(xy 259.08 69.85) (xy 261.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3966,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 196.85) (xy 411.48 199.39)
+			(xy 236.22 158.75) (xy 236.22 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 165.1) (xy 414.02 166.37)
+			(xy 238.76 127) (xy 238.76 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3986,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 156.21) (xy 308.61 162.56)
+			(xy 214.63 44.45) (xy 214.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3996,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 229.87) (xy 313.69 231.14)
+			(xy 132.08 134.62) (xy 132.08 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4006,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 229.87) (xy 297.18 231.14)
+			(xy 115.57 134.62) (xy 115.57 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4016,17 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 979.17 203.2) (xy 989.33 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38790077-c010-4034-b008-f6b6b7328858")
-	)
-	(wire
-		(pts
-			(xy 307.34 189.23) (xy 309.88 189.23)
+			(xy 213.36 77.47) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4036,17 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 66.04) (xy 351.79 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396a01f4-ee8c-4799-aec9-a05acc845e90")
-	)
-	(wire
-		(pts
-			(xy 412.75 165.1) (xy 414.02 165.1)
+			(xy 237.49 127) (xy 238.76 127)
 		)
 		(stroke
 			(width 0)
@@ -4056,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 165.1) (xy 411.48 165.1)
+			(xy 218.44 127) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 189.23) (xy 396.24 189.23)
+			(xy 208.28 151.13) (xy 220.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4076,7 +3988,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 220.98) (xy 293.37 220.98)
+			(xy 99.06 125.73) (xy 111.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4086,7 +3998,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 176.53) (xy 299.72 176.53)
+			(xy 201.93 64.77) (xy 205.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 173.99) (xy 393.7 173.99)
+			(xy 220.98 135.89) (xy 218.44 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 222.25) (xy 297.18 220.98)
+			(xy 115.57 127) (xy 115.57 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4116,17 +4028,7 @@
 	)
 	(wire
 		(pts
-			(xy 1008.38 198.12) (xy 1008.38 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404fab20-0285-4e02-8a14-7548ca536993")
-	)
-	(wire
-		(pts
-			(xy 393.7 179.07) (xy 393.7 176.53)
+			(xy 218.44 140.97) (xy 218.44 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4136,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 229.87) (xy 346.71 231.14)
+			(xy 165.1 134.62) (xy 165.1 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4146,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 247.65) (xy 326.39 255.27)
+			(xy 144.78 152.4) (xy 144.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4156,17 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 941.07 182.88) (xy 942.34 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e29c46-79a0-43b6-8844-bd8727b1e792")
-	)
-	(wire
-		(pts
-			(xy 363.22 220.98) (xy 359.41 220.98)
+			(xy 181.61 125.73) (xy 177.8 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 180.34) (xy 247.65 180.34)
+			(xy 48.26 158.75) (xy 50.8 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4186,7 +4078,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 173.99) (xy 429.26 173.99)
+			(xy 251.46 135.89) (xy 254 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4196,7 +4088,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 156.21) (xy 273.05 156.21)
+			(xy 46.99 40.64) (xy 48.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4206,37 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 979.17 182.88) (xy 989.33 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2888dd-2e2d-48b5-ab18-9bcc1d1a8d08")
-	)
-	(wire
-		(pts
-			(xy 351.79 64.77) (xy 335.28 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5febf055-badf-49fe-b96a-7289880a22be")
-	)
-	(wire
-		(pts
-			(xy 320.04 64.77) (xy 322.58 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60a870ec-24a4-489a-bdcb-4d93872fe27d")
-	)
-	(wire
-		(pts
-			(xy 393.7 165.1) (xy 393.7 173.99)
+			(xy 218.44 127) (xy 218.44 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 256.54) (xy 276.86 255.27)
+			(xy 95.25 161.29) (xy 95.25 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4118,17 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 77.47) (xy 322.58 77.47)
+			(xy 144.78 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685ce03d-ec7d-43fc-800f-e53941721854")
+	)
+	(wire
+		(pts
+			(xy 130.81 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4138,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 168.91) (xy 360.68 168.91)
+			(xy 264.16 57.15) (xy 266.7 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 156.21) (xy 308.61 156.21)
+			(xy 213.36 44.45) (xy 214.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4286,17 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 1013.46 198.12) (xy 1013.46 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70651f1c-1b65-4d62-9ec3-1189558ffba6")
-	)
-	(wire
-		(pts
-			(xy 308.61 176.53) (xy 309.88 176.53)
+			(xy 214.63 64.77) (xy 215.9 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4306,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 229.87) (xy 330.2 231.14)
+			(xy 148.59 134.62) (xy 148.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4316,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 72.39) (xy 322.58 72.39)
+			(xy 130.81 68.58) (xy 132.08 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 176.53) (xy 250.19 180.34)
+			(xy 53.34 154.94) (xy 53.34 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4336,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 177.8) (xy 383.54 176.53)
+			(xy 208.28 139.7) (xy 208.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 69.85) (xy 322.58 69.85)
+			(xy 130.81 66.04) (xy 132.08 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4356,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 165.1) (xy 412.75 165.1)
+			(xy 236.22 127) (xy 237.49 127)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +4228,17 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 247.65) (xy 342.9 255.27)
+			(xy 114.3 60.96) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efc4b4d-7293-4465-8dbb-fe5317c0e8f5")
+	)
+	(wire
+		(pts
+			(xy 161.29 152.4) (xy 161.29 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 80.01) (xy 322.58 80.01)
+			(xy 130.81 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4386,7 +4258,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 220.98) (xy 359.41 220.98)
+			(xy 165.1 125.73) (xy 177.8 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 220.98) (xy 342.9 220.98)
+			(xy 148.59 125.73) (xy 161.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4406,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 77.47) (xy 336.55 77.47)
+			(xy 144.78 73.66) (xy 146.05 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 179.07) (xy 393.7 179.07)
+			(xy 220.98 140.97) (xy 218.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4426,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 168.91) (xy 309.88 168.91)
+			(xy 213.36 57.15) (xy 215.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4308,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 176.53) (xy 393.7 176.53)
+			(xy 208.28 138.43) (xy 218.44 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4446,27 +4318,7 @@
 	)
 	(wire
 		(pts
-			(xy 941.07 215.9) (xy 943.61 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896e9fcd-ca61-496c-ab2a-435ee9f97e3f")
-	)
-	(wire
-		(pts
-			(xy 966.47 170.18) (xy 1013.46 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2fff62-19a2-448e-b919-933d7b90569a")
-	)
-	(wire
-		(pts
-			(xy 273.05 158.75) (xy 273.05 156.21)
+			(xy 48.26 43.18) (xy 48.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4328,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 74.93) (xy 322.58 74.93)
+			(xy 130.81 71.12) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4486,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 175.26) (xy 278.13 181.61)
+			(xy 53.34 59.69) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4496,17 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 1008.38 198.12) (xy 1013.46 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92600dfe-5e16-4507-89a2-4c237d3a34b8")
-	)
-	(wire
-		(pts
-			(xy 393.7 176.53) (xy 396.24 176.53)
+			(xy 218.44 138.43) (xy 220.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4516,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 156.21) (xy 355.6 156.21)
+			(xy 251.46 44.45) (xy 261.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4368,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 163.83) (xy 245.11 166.37)
+			(xy 114.3 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95122cef-1043-443f-b725-d0fc64eed2ac")
+	)
+	(wire
+		(pts
+			(xy 48.26 142.24) (xy 48.26 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4536,17 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 941.07 195.58) (xy 943.61 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e3e688-f7e1-4e38-831b-204dc7b9ff0b")
-	)
-	(wire
-		(pts
-			(xy 363.22 156.21) (xy 365.76 156.21)
+			(xy 269.24 44.45) (xy 271.78 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4556,7 +4398,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 189.23) (xy 360.68 189.23)
+			(xy 264.16 77.47) (xy 266.7 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4566,27 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 942.34 182.88) (xy 942.34 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec39554-5b98-4c89-8d75-b271bdd7f924")
-	)
-	(wire
-		(pts
-			(xy 942.34 182.88) (xy 943.61 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0edf7f5-62d0-4284-9d91-fd4b3a78a596")
-	)
-	(wire
-		(pts
-			(xy 273.05 181.61) (xy 278.13 181.61)
+			(xy 48.26 66.04) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4596,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 74.93) (xy 336.55 74.93)
+			(xy 144.78 71.12) (xy 146.05 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4606,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 161.29) (xy 355.6 161.29)
+			(xy 259.08 49.53) (xy 261.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4616,17 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 60.96) (xy 336.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b69554-6190-4603-9b73-e9607dd60627")
-	)
-	(wire
-		(pts
-			(xy 326.39 220.98) (xy 330.2 220.98)
+			(xy 144.78 125.73) (xy 148.59 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4636,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 255.27) (xy 293.37 255.27)
+			(xy 95.25 160.02) (xy 111.76 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4646,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 220.98) (xy 280.67 220.98)
+			(xy 95.25 125.73) (xy 99.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4656,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 189.23) (xy 347.98 189.23)
+			(xy 251.46 77.47) (xy 254 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4666,17 +4478,27 @@
 	)
 	(wire
 		(pts
-			(xy 996.95 203.2) (xy 999.49 203.2)
+			(xy 116.84 57.15) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ade1f4e8-04bb-41cb-986d-685033ff0097")
+		(uuid "ae0d65e9-70a3-4c50-8541-9f01c4d1274d")
 	)
 	(wire
 		(pts
-			(xy 278.13 156.21) (xy 278.13 167.64)
+			(xy 144.78 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae848a71-b3a9-4be4-b7c2-14dbf49aa84e")
+	)
+	(wire
+		(pts
+			(xy 53.34 40.64) (xy 53.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4686,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 240.03) (xy 335.28 240.03)
+			(xy 152.4 144.78) (xy 153.67 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4696,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 176.53) (xy 365.76 176.53)
+			(xy 269.24 64.77) (xy 271.78 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4706,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 69.85) (xy 336.55 69.85)
+			(xy 144.78 66.04) (xy 146.05 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 229.87) (xy 280.67 231.14)
+			(xy 99.06 134.62) (xy 99.06 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4726,17 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 986.79 208.28) (xy 989.33 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b47302-8934-4ca4-91e9-f1739a5b5415")
-	)
-	(wire
-		(pts
-			(xy 330.2 222.25) (xy 330.2 220.98)
+			(xy 148.59 127) (xy 148.59 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4746,17 +4558,17 @@
 	)
 	(wire
 		(pts
-			(xy 991.87 195.58) (xy 994.41 195.58)
+			(xy 116.84 58.42) (xy 132.08 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "beec806a-6f65-46e9-8de8-0de0d579df02")
+		(uuid "bd17c16d-d705-4b14-9cb1-66ddd4ead710")
 	)
 	(wire
 		(pts
-			(xy 309.88 220.98) (xy 309.88 232.41)
+			(xy 128.27 125.73) (xy 128.27 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4766,17 +4578,7 @@
 	)
 	(wire
 		(pts
-			(xy 942.34 203.2) (xy 942.34 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c28d8efe-ecaf-4ae6-bd85-dc09b1cf08b2")
-	)
-	(wire
-		(pts
-			(xy 297.18 220.98) (xy 293.37 220.98)
+			(xy 115.57 125.73) (xy 111.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4786,17 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 942.34 203.2) (xy 943.61 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75ea94b-f232-4a9d-b755-a8bd75457641")
-	)
-	(wire
-		(pts
-			(xy 267.97 240.03) (xy 269.24 240.03)
+			(xy 86.36 144.78) (xy 87.63 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4806,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 240.03) (xy 351.79 240.03)
+			(xy 168.91 144.78) (xy 170.18 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4816,7 +4608,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 247.65) (xy 309.88 255.27)
+			(xy 128.27 152.4) (xy 128.27 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 186.69) (xy 396.24 186.69)
+			(xy 218.44 148.59) (xy 220.98 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 156.21) (xy 278.13 156.21)
+			(xy 48.26 40.64) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4846,27 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 979.17 195.58) (xy 981.71 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5824d7-4765-47a2-8704-d2b365bda5a3")
-	)
-	(wire
-		(pts
-			(xy 320.04 62.23) (xy 322.58 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce15e086-0a4c-41f1-9da6-2176fefd335e")
-	)
-	(wire
-		(pts
-			(xy 335.28 80.01) (xy 336.55 80.01)
+			(xy 144.78 76.2) (xy 146.05 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4876,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 220.98) (xy 293.37 232.41)
+			(xy 111.76 125.73) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4886,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 247.65) (xy 359.41 255.27)
+			(xy 177.8 152.4) (xy 177.8 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4896,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 222.25) (xy 280.67 220.98)
+			(xy 99.06 127) (xy 99.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 222.25) (xy 346.71 220.98)
+			(xy 165.1 127) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4916,27 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 996.95 182.88) (xy 999.49 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a97d60-634c-4fbd-8569-d9d42971eab2")
-	)
-	(wire
-		(pts
-			(xy 979.17 215.9) (xy 981.71 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8baa8d-217e-4eeb-b02e-94a0cfeecb7d")
-	)
-	(wire
-		(pts
-			(xy 326.39 255.27) (xy 342.9 255.27)
+			(xy 144.78 160.02) (xy 161.29 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4946,17 +4698,17 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 59.69) (xy 320.04 62.23)
+			(xy 114.3 60.96) (xy 132.08 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dde95674-73c1-423d-aecb-54e9fa79e600")
+		(uuid "dc539e8c-3f19-4780-b0cc-2a5316f76d41")
 	)
 	(wire
 		(pts
-			(xy 326.39 220.98) (xy 326.39 232.41)
+			(xy 144.78 125.73) (xy 144.78 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4966,7 +4718,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 240.03) (xy 302.26 240.03)
+			(xy 119.38 144.78) (xy 120.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +4728,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 173.99) (xy 383.54 176.53)
+			(xy 208.28 135.89) (xy 208.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4986,7 +4738,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 176.53) (xy 355.6 176.53)
+			(xy 251.46 64.77) (xy 261.62 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4996,27 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 929.64 203.2) (xy 933.45 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08fbe43-9d03-48e2-a308-04377d4209dd")
-	)
-	(wire
-		(pts
-			(xy 991.87 215.9) (xy 994.41 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0bc8e18-c697-4ccd-910b-1822759e3b01")
-	)
-	(wire
-		(pts
-			(xy 309.88 255.27) (xy 326.39 255.27)
+			(xy 128.27 160.02) (xy 144.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5026,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 255.27) (xy 359.41 255.27)
+			(xy 161.29 160.02) (xy 177.8 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5036,7 +4768,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 240.03) (xy 285.75 240.03)
+			(xy 102.87 144.78) (xy 104.14 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 156.21) (xy 299.72 156.21)
+			(xy 201.93 44.45) (xy 205.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5056,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 62.23) (xy 335.28 62.23)
+			(xy 146.05 58.42) (xy 144.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +4798,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 220.98) (xy 346.71 220.98)
+			(xy 161.29 125.73) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +4808,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 180.34) (xy 250.19 180.34)
+			(xy 50.8 158.75) (xy 53.34 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5086,7 +4818,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 166.37) (xy 273.05 167.64)
+			(xy 48.26 50.8) (xy 48.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 247.65) (xy 293.37 255.27)
+			(xy 111.76 152.4) (xy 111.76 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5106,17 +4838,7 @@
 	)
 	(wire
 		(pts
-			(xy 966.47 172.72) (xy 1008.38 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea3d67f-7afc-46e0-955d-baf3891de3e4")
-	)
-	(wire
-		(pts
-			(xy 317.5 240.03) (xy 318.77 240.03)
+			(xy 135.89 144.78) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 162.56) (xy 412.75 165.1)
+			(xy 237.49 124.46) (xy 237.49 127)
 		)
 		(stroke
 			(width 0)
@@ -5136,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 240.03) (xy 368.3 240.03)
+			(xy 185.42 144.78) (xy 186.69 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5146,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 220.98) (xy 309.88 220.98)
+			(xy 115.57 125.73) (xy 128.27 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5156,17 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 941.07 203.2) (xy 942.34 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d27ac6-3b79-4b82-a238-cf8df54f9f8a")
-	)
-	(wire
-		(pts
-			(xy 250.19 162.56) (xy 250.19 166.37)
+			(xy 53.34 140.97) (xy 53.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +4888,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 166.37) (xy 411.48 165.1)
+			(xy 236.22 128.27) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
@@ -5186,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 220.98) (xy 276.86 232.41)
+			(xy 95.25 125.73) (xy 95.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5196,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 156.21) (xy 309.88 156.21)
+			(xy 214.63 44.45) (xy 215.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5206,7 +4918,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 184.15) (xy 396.24 184.15)
+			(xy 218.44 146.05) (xy 220.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5216,7 +4928,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 271.78 156.21 180)
+		(at 46.99 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5226,7 +4938,7 @@
 		)
 		(uuid "06b398dc-0d26-47d3-9c23-f8533e39e548")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.8962 156.21 0)
+			(at 39.1062 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,7 +4952,7 @@
 	)
 	(global_label "DIN"
 		(shape input)
-		(at 322.58 67.31 180)
+		(at 130.81 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5250,7 +4962,7 @@
 		)
 		(uuid "0ea79497-ab00-45d5-93b2-a9170484e2c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.3895 67.31 0)
+			(at 124.6195 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,33 +4974,9 @@
 			)
 		)
 	)
-	(global_label "IR_REC_2"
+	(global_label "IR_REC_HORI"
 		(shape input)
-		(at 321.31 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15be79a0-40e5-475b-a7e1-bc822e78b7bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.6163 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 336.55 80.01 0)
+		(at 146.05 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5296,9 +4984,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1814d4c6-6cbc-4bba-bf80-29cddb81c9ba")
+		(uuid "14f2864b-4c61-457c-b015-42419ae8288a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 343.0428 80.01 0)
+			(at 161.07 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,9 +4998,33 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_2"
+	(global_label "SCL"
 		(shape input)
-		(at 355.6 161.29 0)
+		(at 146.05 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1814d4c6-6cbc-4bba-bf80-29cddb81c9ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.5428 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IR_TRA_HORI"
+		(shape input)
+		(at 261.62 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5322,7 +5034,7 @@
 		)
 		(uuid "1ac86c5e-38b5-4cd0-9ed1-9c8eb58efafe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.9309 161.29 0)
+			(at 276.2772 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,7 +5048,7 @@
 	)
 	(global_label "btn_DOWN"
 		(shape input)
-		(at 245.11 163.83 90)
+		(at 48.26 142.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5346,7 +5058,7 @@
 		)
 		(uuid "1d3b50cd-012a-4927-8993-4014e4846349")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 151.4711 90)
+			(at 48.26 129.8811 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,9 +5070,9 @@
 			)
 		)
 	)
-	(global_label "IR_REC_5"
+	(global_label "BAT-"
 		(shape input)
-		(at 942.34 209.55 180)
+		(at 130.81 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5368,9 +5080,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3bdfa2fc-2e4e-41ca-84da-fdeaee7e6cc9")
+		(uuid "3f61caff-9e52-4b7b-8997-6028a534655d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 930.6463 209.55 0)
+			(at 122.9262 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5382,33 +5094,9 @@
 			)
 		)
 	)
-	(global_label "BAT-"
-		(shape input)
-		(at 336.55 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f61caff-9e52-4b7b-8997-6028a534655d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.4338 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
-		(at 393.7 184.15 180)
+		(at 218.44 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5418,7 +5106,7 @@
 		)
 		(uuid "509b1e85-e17d-44f9-82a7-34a543cff76f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.1467 184.15 0)
+			(at 211.8867 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,7 +5120,7 @@
 	)
 	(global_label "DOUT"
 		(shape input)
-		(at 337.82 67.31 0)
+		(at 146.05 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5442,7 +5130,7 @@
 		)
 		(uuid "556d980c-d950-4fd6-a51d-2db6c973183f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.7038 67.31 0)
+			(at 153.9338 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5454,19 +5142,19 @@
 			)
 		)
 	)
-	(global_label "ACC_B_INT1"
+	(global_label "ACC_INT"
 		(shape input)
-		(at 320.04 64.77 180)
+		(at 146.05 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5d8196ad-d2a3-4765-8d1b-d36e0462f3f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 306.1086 64.77 0)
+			(at 156.5343 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5474,23 +5162,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "btn_WEST_DOWN"
+	(global_label "ACC_INT"
 		(shape input)
-		(at 966.47 170.18 180)
+		(at 254 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5d8355f1-347f-4b68-97be-c5874a9dfe6f")
+		(uuid "77661187-1f1d-44e8-be85-57180c2f2652")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 948.366 170.18 0)
+			(at 264.4843 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,13 +5186,37 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "IR_TRA_3"
+	(global_label "IR_REC_VERT"
 		(shape input)
-		(at 355.6 181.61 0)
+		(at 146.05 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ae839d7-7e9d-44d9-bbb8-43cb33c046c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.0094 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IR_TRA_VERT"
+		(shape input)
+		(at 261.62 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5514,7 +5226,7 @@
 		)
 		(uuid "7ed2819e-b26a-4d1c-8689-b95fd37b193c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.9309 181.61 0)
+			(at 276.2166 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5526,9 +5238,9 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_2"
+	(global_label "IR_TRA_HORI"
 		(shape input)
-		(at 336.55 72.39 0)
+		(at 146.05 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5536,9 +5248,9 @@
 			)
 			(justify left)
 		)
-		(uuid "800f6017-7a86-47c5-9c17-ec89aa9d6222")
+		(uuid "880abfb1-eb31-41f3-8c0e-9cb531b0b8bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.8809 72.39 0)
+			(at 160.7072 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,9 +5262,9 @@
 			)
 		)
 	)
-	(global_label "IR_REC_3"
+	(global_label "IR_REC_VERT"
 		(shape input)
-		(at 308.61 182.88 180)
+		(at 214.63 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5562,55 +5274,7 @@
 		)
 		(uuid "8d50c7c4-47f2-4b90-8120-1a26a242bcd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.9163 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IR_TRA_3"
-		(shape input)
-		(at 336.55 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9749c522-7163-47f9-a899-e900e4725641")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.8809 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IR_REC_3"
-		(shape input)
-		(at 321.31 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a597a11d-9b9e-4507-bd36-a115874f8653")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 309.6163 74.93 0)
+			(at 199.6706 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,7 +5288,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 393.7 186.69 180)
+		(at 218.44 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5634,7 +5298,7 @@
 		)
 		(uuid "a6515bc1-3bd7-47a6-87d6-236cc2195e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.2072 186.69 0)
+			(at 211.9472 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5648,7 +5312,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 271.78 181.61 180)
+		(at 46.99 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5658,7 +5322,7 @@
 		)
 		(uuid "a8d45bc1-8f6a-4496-a74b-81c02935c516")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.8962 181.61 0)
+			(at 39.1062 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5670,57 +5334,9 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_4"
-		(shape input)
-		(at 989.33 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac06270a-a2a2-4f76-8e38-709a27bf71dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1000.6609 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IR_TRA_5"
-		(shape input)
-		(at 989.33 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac5ce25a-48ba-4141-b2c8-fff9639ec456")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1000.6609 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "btn_UP"
 		(shape input)
-		(at 250.19 162.56 90)
+		(at 53.34 140.97 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5730,7 +5346,7 @@
 		)
 		(uuid "aea57b4b-80fb-481f-a640-106e6105e284")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 152.983 90)
+			(at 53.34 131.393 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,33 +5358,9 @@
 			)
 		)
 	)
-	(global_label "IR_REC_4"
+	(global_label "IR_TRA_VERT"
 		(shape input)
-		(at 942.34 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af390408-84e4-42c0-bece-a7ee99e9d644")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 930.6463 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "btn_EAST_UP"
-		(shape input)
-		(at 336.55 69.85 0)
+		(at 146.05 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5776,9 +5368,9 @@
 			)
 			(justify left)
 		)
-		(uuid "bec482b2-7a95-4e74-bb58-1cb4a910ce9e")
+		(uuid "c0d8e82e-4b22-46cd-8841-a94825dc9906")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 351.5093 69.85 0)
+			(at 160.6466 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,17 +5384,17 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 321.31 80.01 180)
+		(at 146.05 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c8ecb8be-5f5a-4ab0-b9e4-6f0853a82a83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.7567 80.01 0)
+			(at 152.6033 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,13 +5402,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "btn_EAST_DOWN"
+	(global_label "btn_DOWN"
 		(shape input)
-		(at 321.31 69.85 180)
+		(at 130.81 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5824,9 +5416,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d7dc6417-529f-44c4-8755-b714d63a165d")
+		(uuid "d3c7f809-e6cb-485e-a934-776215c6f017")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.5688 69.85 0)
+			(at 118.4511 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5432,7 @@
 	)
 	(global_label "DOUT"
 		(shape input)
-		(at 368.3 240.03 0)
+		(at 186.69 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5850,7 +5442,7 @@
 		)
 		(uuid "e40fd1c0-5bf9-4079-a1ff-ef04950aa85e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 376.1838 240.03 0)
+			(at 194.5738 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,7 +5456,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 321.31 77.47 180)
+		(at 130.81 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5874,7 +5466,7 @@
 		)
 		(uuid "e820a5f7-c80c-4202-9a43-04c4e967bbe7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.4262 77.47 0)
+			(at 122.9262 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,9 +5478,9 @@
 			)
 		)
 	)
-	(global_label "IR_REC_2"
+	(global_label "IR_REC_HORI"
 		(shape input)
-		(at 308.61 162.56 180)
+		(at 214.63 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5898,7 +5490,7 @@
 		)
 		(uuid "edfaa2e2-fb16-4f2e-8194-0f15ba3c083e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.9163 162.56 0)
+			(at 199.61 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,7 +5504,7 @@
 	)
 	(global_label "DIN"
 		(shape input)
-		(at 267.97 240.03 180)
+		(at 86.36 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5922,7 +5514,7 @@
 		)
 		(uuid "f3a25410-0daa-4829-8b8d-044fea4c1760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.7795 240.03 0)
+			(at 80.1695 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,9 +5526,9 @@
 			)
 		)
 	)
-	(global_label "btn_WEST_UP"
+	(global_label "btn_UP"
 		(shape input)
-		(at 966.47 172.72 180)
+		(at 130.81 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5944,9 +5536,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f589015e-d90f-4d07-b9a4-c2b411ae2016")
+		(uuid "f3ab81f7-feea-48cb-a900-8ea85605433a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 951.1479 172.72 0)
+			(at 121.233 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +5552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 280.67 226.06 0)
+		(at 99.06 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5969,8 +5561,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06afc31b-8f4f-4b35-b77b-95ef5d8d25c1")
-		(property "Reference" "C20"
-			(at 280.924 223.774 0)
+		(property "Reference" "C1"
+			(at 99.314 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5981,7 +5573,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 280.924 228.346 0)
+			(at 99.314 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +5584,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 281.6352 229.87 0)
+			(at 100.0252 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6003,7 +5595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 226.06 0)
+			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +5606,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 280.67 226.06 0)
+			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +5625,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C20")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6041,7 +5633,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 383.54 186.69 0)
+		(at 208.28 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6051,8 +5643,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8f5ffd-6dc8-4257-953c-c8020fc7af3d")
-		(property "Reference" "#PWR071"
-			(at 383.54 190.5 0)
+		(property "Reference" "#PWR022"
+			(at 208.28 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +5655,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 383.54 181.61 0)
+			(at 208.28 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6073,7 +5665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 186.69 0)
+			(at 208.28 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6084,7 +5676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 186.69 0)
+			(at 208.28 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +5687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 383.54 186.69 0)
+			(at 208.28 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +5703,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR071")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6119,7 +5711,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 365.76 176.53 0)
+		(at 271.78 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6128,8 +5720,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13df2363-5b44-4abf-a8f9-46f70f06e15a")
-		(property "Reference" "#PWR098"
-			(at 365.76 180.34 0)
+		(property "Reference" "#PWR020"
+			(at 271.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6140,7 +5732,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 362.204 172.974 0)
+			(at 268.224 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6151,7 +5743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 176.53 0)
+			(at 271.78 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,7 +5754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 176.53 0)
+			(at 271.78 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6173,7 +5765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 365.76 176.53 0)
+			(at 271.78 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,7 +5781,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR098")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6197,7 +5789,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 295.91 156.21 0)
+		(at 201.93 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6206,8 +5798,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a9e9bd1-1b72-465e-b3fb-e0b141c7351d")
-		(property "Reference" "#PWR064"
-			(at 295.91 160.02 0)
+		(property "Reference" "#PWR05"
+			(at 201.93 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +5810,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 296.164 154.178 0)
+			(at 202.184 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6229,7 +5821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 156.21 0)
+			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,7 +5832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 156.21 0)
+			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,7 +5843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 295.91 156.21 0)
+			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6267,7 +5859,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR064")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6275,7 +5867,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 276.86 240.03 0)
+		(at 95.25 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6284,8 +5876,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1be5e88b-18f4-43f9-bf5f-2e7cf55f9f3b")
-		(property "Reference" "D20"
-			(at 272.796 233.934 0)
+		(property "Reference" "D1"
+			(at 91.186 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6295,7 +5887,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 281.94 246.38 0)
+			(at 100.33 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6305,7 +5897,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 278.13 247.65 0)
+			(at 96.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,7 +5909,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 279.4 249.555 0)
+			(at 97.79 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +5921,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 276.86 240.03 0)
+			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,7 +5946,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D20")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6362,7 +5954,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 293.37 240.03 0)
+		(at 111.76 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6371,8 +5963,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d4b824-f612-4a04-b991-29f44e7a1b54")
-		(property "Reference" "D21"
-			(at 289.306 233.934 0)
+		(property "Reference" "D3"
+			(at 107.696 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6382,7 +5974,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 298.45 246.38 0)
+			(at 116.84 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6392,7 +5984,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 294.64 247.65 0)
+			(at 113.03 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,7 +5996,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 295.91 249.555 0)
+			(at 114.3 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +6008,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 293.37 240.03 0)
+			(at 111.76 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,7 +6033,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D21")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6041,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 383.54 170.18 0)
+		(at 208.28 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6459,8 +6051,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26afd251-eab5-4b60-a74e-ac67d38cf82f")
-		(property "Reference" "C77"
-			(at 387.35 168.9099 0)
+		(property "Reference" "C7"
+			(at 212.09 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6471,7 +6063,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 387.35 171.4499 0)
+			(at 212.09 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6482,7 +6074,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 384.5052 173.99 0)
+			(at 209.2452 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 170.18 0)
+			(at 208.28 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 383.54 170.18 0)
+			(at 208.28 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,92 +6115,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kitprisme:ITR9909")
-		(at 961.39 209.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26ca63d4-11cf-4f59-99a4-7e93cb3b35b1")
-		(property "Reference" "U20"
-			(at 974.344 200.914 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ITR9909"
-			(at 949.96 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "sthymuli:ITR_9909_Vertical"
-			(at 961.39 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 961.39 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 961.39 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ed606c83-7e01-4286-8832-1657f26dc4a8")
-		)
-		(pin "2"
-			(uuid "407a89c1-f9f2-41ab-ae53-5b776ab20892")
-		)
-		(pin "4"
-			(uuid "929c0441-4ca5-4e69-b25b-121bec2a8bae")
-		)
-		(pin "1"
-			(uuid "e1786efd-43e7-4708-b73b-e4c05a9bb506")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U20")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6616,7 +6123,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 359.41 176.53 90)
+		(at 265.43 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6625,8 +6132,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "273480c0-6b8f-4af1-b368-559687ef771c")
-		(property "Reference" "R63"
-			(at 358.14 178.816 90)
+		(property "Reference" "R4"
+			(at 264.16 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6636,7 +6143,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 359.41 174.244 90)
+			(at 265.43 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6646,7 +6153,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 359.41 178.308 90)
+			(at 265.43 66.548 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6657,7 +6164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 176.53 0)
+			(at 265.43 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,7 +6175,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 359.41 176.53 0)
+			(at 265.43 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,86 +6194,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 993.14 182.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "281b5ac7-6b9b-4a5e-8fec-89050b640c93")
-		(property "Reference" "R64"
-			(at 991.87 185.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27R"
-			(at 993.14 180.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 993.14 184.658 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 993.14 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 993.14 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c49b9a65-0ad1-430a-8b97-18a880ebdd81")
-		)
-		(pin "1"
-			(uuid "893c96f8-95f0-4fa8-aa7e-27c7d9abd65e")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R64")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 231.14 0)
+		(at 165.1 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6783,8 +6211,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2afb6bee-a180-4b69-92b7-34a4c83acb78")
-		(property "Reference" "#PWR0139"
-			(at 346.71 237.49 0)
+		(property "Reference" "#PWR014"
+			(at 165.1 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +6223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 348.996 231.14 0)
+			(at 167.386 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6805,7 +6233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 231.14 0)
+			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,7 +6244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 231.14 0)
+			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6827,7 +6255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 231.14 0)
+			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +6271,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0139")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6851,7 +6279,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 326.39 240.03 0)
+		(at 144.78 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6860,8 +6288,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e7edcc9-1d1d-4411-bee1-1de024018659")
-		(property "Reference" "D23"
-			(at 322.326 233.934 0)
+		(property "Reference" "D5"
+			(at 140.716 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6871,7 +6299,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 331.47 246.38 0)
+			(at 149.86 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6881,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 327.66 247.65 0)
+			(at 146.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6893,7 +6321,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 328.93 249.555 0)
+			(at 147.32 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6905,7 +6333,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 326.39 240.03 0)
+			(at 144.78 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,86 +6358,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 937.26 203.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f497afa-c2f8-4b1d-8037-42c84f554377")
-		(property "Reference" "R55"
-			(at 935.99 205.486 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3K3"
-			(at 937.26 201.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 937.26 204.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 937.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 937.26 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0de42d03-6469-4c07-be03-a842fb3f87ab")
-		)
-		(pin "1"
-			(uuid "171357d6-298f-4e47-97e4-a39e86544643")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R55")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7017,7 +6366,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 359.41 240.03 0)
+		(at 177.8 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7026,8 +6375,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fc4c6d8-9be2-43a7-828c-d0ea039e5f8e")
-		(property "Reference" "D25"
-			(at 355.346 233.934 0)
+		(property "Reference" "D7"
+			(at 173.736 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7037,7 +6386,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 364.49 246.38 0)
+			(at 182.88 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7047,7 +6396,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 360.68 247.65 0)
+			(at 179.07 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +6408,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 361.95 249.555 0)
+			(at 180.34 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7071,7 +6420,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 359.41 240.03 0)
+			(at 177.8 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +6445,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D25")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7104,7 +6453,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 336.55 60.96 0)
+		(at 116.84 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7112,10 +6461,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b9c7566-d9ba-4c34-a47a-b8a68044df05")
-		(property "Reference" "#PWR0149"
-			(at 336.55 64.77 0)
+		(property "Reference" "#PWR013"
+			(at 116.84 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,7 +6474,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 336.55 55.88 0)
+			(at 119.634 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7136,7 +6484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 60.96 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +6495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 60.96 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +6506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 336.55 60.96 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,7 +6522,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0149")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7182,7 +6530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 168.91 0)
+		(at 266.7 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7191,8 +6539,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "423f9afc-6f88-46b8-8f0d-91376d2d6380")
-		(property "Reference" "#PWR089"
-			(at 360.68 175.26 0)
+		(property "Reference" "#PWR016"
+			(at 266.7 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +6551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.252 168.91 0)
+			(at 271.272 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7214,7 +6562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 168.91 0)
+			(at 266.7 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7225,7 +6573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 168.91 0)
+			(at 266.7 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7236,7 +6584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 168.91 0)
+			(at 266.7 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,85 +6600,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 1008.38 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45ea1ba6-e88e-47f3-bcd1-33a4b371f2fd")
-		(property "Reference" "#PWR058"
-			(at 1008.38 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 1008.38 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1008.38 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1008.38 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 1008.38 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b08efe6e-6fda-4e18-9460-0e52f7f77a56")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR058")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7338,7 +6608,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 313.69 226.06 0)
+		(at 132.08 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7347,8 +6617,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48063046-1e9e-4c87-b223-250d0fd4dbef")
-		(property "Reference" "C22"
-			(at 313.944 223.774 0)
+		(property "Reference" "C3"
+			(at 132.334 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7359,7 +6629,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 313.944 228.346 0)
+			(at 132.334 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7370,7 +6640,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 314.6552 229.87 0)
+			(at 133.0452 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +6651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 226.06 0)
+			(at 132.08 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,7 +6662,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 313.69 226.06 0)
+			(at 132.08 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +6681,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C22")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7419,7 +6689,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 250.19 171.45 270)
+		(at 53.34 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7428,8 +6698,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4927ebe9-8fdc-4200-b4a9-a1e2cd4a6f50")
-		(property "Reference" "SW8"
-			(at 250.19 167.64 90)
+		(property "Reference" "SW2"
+			(at 53.34 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7440,7 +6710,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 252.73 170.434 90)
+			(at 55.88 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7451,7 +6721,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli:XKB5858"
-			(at 255.27 171.45 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 171.45 0)
+			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7473,7 +6743,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 250.19 171.45 0)
+			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,86 +6762,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 993.14 203.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4ad2900e-00fd-42f3-8089-da1af7b2c977")
-		(property "Reference" "R65"
-			(at 991.87 205.486 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27R"
-			(at 992.886 201.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 993.14 204.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 993.14 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 993.14 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6e195a6f-4a7c-4fe3-9d30-a37123ba8281")
-		)
-		(pin "1"
-			(uuid "1219514e-3ac4-4f1a-a2c5-0db7d79c8eb8")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R65")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7579,7 +6770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 383.54 177.8 0)
+		(at 208.28 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7588,8 +6779,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d778baa-7326-4ecc-8dcf-5d986198f3e8")
-		(property "Reference" "#PWR070"
-			(at 383.54 184.15 0)
+		(property "Reference" "#PWR021"
+			(at 208.28 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7600,7 +6791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 385.826 177.8 0)
+			(at 210.566 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7610,7 +6801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 177.8 0)
+			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7621,7 +6812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 177.8 0)
+			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7632,7 +6823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 383.54 177.8 0)
+			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,85 +6839,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 929.64 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54491419-4d36-4412-a958-533d7242e3e9")
-		(property "Reference" "#PWR066"
-			(at 929.64 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 929.894 180.848 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 929.64 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 929.64 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 929.64 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d8f72d7-15b5-47fb-8961-33ad25866b80")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR066")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7734,7 +6847,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 273.05 172.72 0)
+		(at 48.26 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7744,7 +6857,7 @@
 		(dnp no)
 		(uuid "54f404c7-497b-47ad-aa42-8db5a74e054a")
 		(property "Reference" "BT1"
-			(at 269.24 169.672 0)
+			(at 44.45 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7755,7 +6868,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 261.112 173.482 0)
+			(at 36.322 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7766,7 +6879,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli:Battery_Holder_18650_robop"
-			(at 273.05 171.196 90)
+			(at 48.26 55.626 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +6890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 171.196 90)
+			(at 48.26 55.626 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +6901,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 273.05 172.72 0)
+			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +6912,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 273.05 172.72 0)
+			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +6923,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 273.05 172.72 0)
+			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +6934,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 273.05 172.72 0)
+			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,86 +6960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 941.07 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5542476c-6651-4951-aac9-8a45e970fdc3")
-		(property "Reference" "#PWR078"
-			(at 941.07 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 940.308 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 941.07 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 941.07 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 941.07 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dfea3538-b960-4252-8268-b86a7b7ae1f9")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 303.53 156.21 90)
+		(at 209.55 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7935,8 +6970,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "556d5c8f-2892-45fe-9e8f-ba5f141441cb")
-		(property "Reference" "R52"
-			(at 302.26 158.496 90)
+		(property "Reference" "R1"
+			(at 208.28 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7946,7 +6981,7 @@
 			)
 		)
 		(property "Value" "3K3"
-			(at 303.53 154.178 90)
+			(at 209.55 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7956,7 +6991,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 303.53 157.988 90)
+			(at 209.55 46.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 156.21 0)
+			(at 209.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7013,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 156.21 0)
+			(at 209.55 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7997,7 +7032,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R52")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8005,7 +7040,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 412.75 162.56 0)
+		(at 237.49 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8015,8 +7050,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec7aef4-8a3f-4a25-b87f-019f9bc1f345")
-		(property "Reference" "#PWR085"
-			(at 412.75 166.37 0)
+		(property "Reference" "#PWR024"
+			(at 237.49 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8027,7 +7062,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 412.75 157.48 0)
+			(at 237.49 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8037,7 +7072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 162.56 0)
+			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +7083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 162.56 0)
+			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +7094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 412.75 162.56 0)
+			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +7110,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR085")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8083,7 +7118,7 @@
 	)
 	(symbol
 		(lib_id "kitprisme:ITR9909")
-		(at 327.66 182.88 0)
+		(at 233.68 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8092,8 +7127,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65a00979-d5f1-47f1-b820-2bdef967ebe8")
-		(property "Reference" "U18"
-			(at 340.614 174.244 0)
+		(property "Reference" "U2"
+			(at 246.634 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8103,7 +7138,7 @@
 			)
 		)
 		(property "Value" "ITR9909"
-			(at 316.23 173.99 0)
+			(at 222.25 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8112,8 +7147,8 @@
 				)
 			)
 		)
-		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
-			(at 327.66 182.88 0)
+		(property "Footprint" "sthymuli:ITR_9909_Vertical"
+			(at 233.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8124,7 +7159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 182.88 0)
+			(at 233.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8135,7 +7170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 182.88 0)
+			(at 233.68 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +7195,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U18")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8168,7 +7203,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 342.9 240.03 0)
+		(at 161.29 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8177,8 +7212,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "689d353e-d341-40e4-b36f-510d1ea74e63")
-		(property "Reference" "D24"
-			(at 338.836 233.934 0)
+		(property "Reference" "D6"
+			(at 157.226 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8188,7 +7223,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 347.98 246.38 0)
+			(at 166.37 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8198,7 +7233,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 344.17 247.65 0)
+			(at 162.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8210,7 +7245,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 345.44 249.555 0)
+			(at 163.83 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,7 +7257,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 342.9 240.03 0)
+			(at 161.29 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +7282,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D24")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8255,7 +7290,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 365.76 156.21 0)
+		(at 271.78 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8264,8 +7299,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dbb7992-debf-4b0c-9255-fdc466b35fb5")
-		(property "Reference" "#PWR097"
-			(at 365.76 160.02 0)
+		(property "Reference" "#PWR019"
+			(at 271.78 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +7311,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 362.204 152.654 0)
+			(at 268.224 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8287,7 +7322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 156.21 0)
+			(at 271.78 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +7333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 156.21 0)
+			(at 271.78 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +7344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 365.76 156.21 0)
+			(at 271.78 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +7360,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR097")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8333,7 +7368,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 353.06 166.37 90)
+		(at 259.08 54.61 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8343,8 +7378,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ef0ec38-c5d0-4724-b4d5-786783406ec9")
-		(property "Reference" "Q10"
-			(at 353.06 172.72 90)
+		(property "Reference" "Q1"
+			(at 259.08 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8354,7 +7389,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 354.076 175.006 90)
+			(at 260.096 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8364,7 +7399,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 353.06 166.37 0)
+			(at 259.08 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8375,7 +7410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 166.37 0)
+			(at 259.08 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +7421,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
-			(at 353.06 166.37 0)
+			(at 259.08 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8408,7 +7443,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "Q10")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8416,7 +7451,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 303.53 176.53 90)
+		(at 209.55 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8425,8 +7460,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80edf8a2-e6f8-46c0-8d74-94ba0626f9aa")
-		(property "Reference" "R53"
-			(at 302.26 178.816 90)
+		(property "Reference" "R2"
+			(at 208.28 67.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8436,7 +7471,7 @@
 			)
 		)
 		(property "Value" "3K3"
-			(at 303.53 174.498 90)
+			(at 209.55 62.738 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8446,7 +7481,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 303.53 178.308 90)
+			(at 209.55 66.548 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +7492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 176.53 0)
+			(at 209.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +7503,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 176.53 0)
+			(at 209.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8487,7 +7522,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R53")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8495,7 +7530,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 273.05 162.56 0)
+		(at 48.26 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8505,7 +7540,7 @@
 		(dnp no)
 		(uuid "8601de4d-8a18-4e58-869c-be0ec799608b")
 		(property "Reference" "F1"
-			(at 268.986 159.766 0)
+			(at 44.196 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8516,7 +7551,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 266.954 162.56 0)
+			(at 42.164 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8527,7 +7562,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 271.272 162.56 90)
+			(at 46.482 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8538,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 162.56 0)
+			(at 48.26 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8549,7 +7584,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 273.05 162.56 0)
+			(at 48.26 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8576,7 +7611,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 276.86 220.98 0)
+		(at 95.25 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8586,8 +7621,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d37486-fdba-46f7-a3b7-418b8b929a48")
-		(property "Reference" "#PWR0147"
-			(at 276.86 224.79 0)
+		(property "Reference" "#PWR02"
+			(at 95.25 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +7633,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 276.86 215.9 0)
+			(at 95.25 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8608,7 +7643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 220.98 0)
+			(at 95.25 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8619,7 +7654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 220.98 0)
+			(at 95.25 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,7 +7665,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 276.86 220.98 0)
+			(at 95.25 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8646,7 +7681,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0147")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8654,7 +7689,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 189.23 0)
+		(at 213.36 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8663,8 +7698,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89facb42-8d4b-474e-9f44-dab59d0607d8")
-		(property "Reference" "#PWR077"
-			(at 307.34 195.58 0)
+		(property "Reference" "#PWR09"
+			(at 213.36 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8675,7 +7710,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.578 187.452 0)
+			(at 212.598 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8686,7 +7721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 189.23 0)
+			(at 213.36 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,7 +7732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 189.23 0)
+			(at 213.36 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +7743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 189.23 0)
+			(at 213.36 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8724,7 +7759,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR077")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8732,7 +7767,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 353.06 186.69 90)
+		(at 259.08 74.93 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8742,8 +7777,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b7b6baa-f6ad-4822-99d0-54d36f8e579f")
-		(property "Reference" "Q11"
-			(at 353.06 193.04 90)
+		(property "Reference" "Q2"
+			(at 259.08 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8753,7 +7788,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 354.33 195.834 90)
+			(at 260.35 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8763,7 +7798,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 353.06 186.69 0)
+			(at 259.08 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +7809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 186.69 0)
+			(at 259.08 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +7820,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
-			(at 353.06 186.69 0)
+			(at 259.08 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,7 +7842,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "Q11")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8815,7 +7850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 307.34 168.91 0)
+		(at 213.36 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8824,8 +7859,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92b9068a-37a9-4723-b8b3-d0cac213fdd6")
-		(property "Reference" "#PWR076"
-			(at 307.34 175.26 0)
+		(property "Reference" "#PWR08"
+			(at 213.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,7 +7871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.578 168.91 0)
+			(at 212.598 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8847,7 +7882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 168.91 0)
+			(at 213.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8858,7 +7893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 168.91 0)
+			(at 213.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,7 +7904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 168.91 0)
+			(at 213.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,7 +7920,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR076")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8893,7 +7928,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 309.88 240.03 0)
+		(at 128.27 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8902,8 +7937,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9569f3ac-3fd5-47a0-a85e-913490f8fbed")
-		(property "Reference" "D22"
-			(at 305.816 233.934 0)
+		(property "Reference" "D4"
+			(at 124.206 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8913,7 +7948,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 314.96 246.38 0)
+			(at 133.35 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8923,7 +7958,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 311.15 247.65 0)
+			(at 129.54 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 312.42 249.555 0)
+			(at 130.81 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8947,7 +7982,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 309.88 240.03 0)
+			(at 128.27 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,86 +8007,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 937.26 182.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97d4742f-28af-47ca-98d7-bee3ee1426a4")
-		(property "Reference" "R54"
-			(at 935.99 185.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3K3"
-			(at 937.26 180.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 937.26 184.658 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 937.26 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 937.26 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab03ad3e-d381-4fe6-b616-af4b1528dc12")
-		)
-		(pin "1"
-			(uuid "5d6fd693-670b-4812-9a5c-6cd3348a4837")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R54")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9059,7 +8015,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 245.11 171.45 270)
+		(at 48.26 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9068,8 +8024,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9af8b973-419c-487b-a248-dc3a41ee6818")
-		(property "Reference" "SW7"
-			(at 245.11 167.64 90)
+		(property "Reference" "SW1"
+			(at 48.26 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9080,7 +8036,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 235.458 171.45 90)
+			(at 38.608 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9091,7 +8047,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli:XKB5858"
-			(at 250.19 171.45 0)
+			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9102,7 +8058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 171.45 0)
+			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9113,7 +8069,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 245.11 171.45 0)
+			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,163 +8088,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 999.49 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aede7644-b33d-42d2-afae-50bf57af7935")
-		(property "Reference" "#PWR099"
-			(at 999.49 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 995.934 179.324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 999.49 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 999.49 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 999.49 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bf7cebf-2c4c-4a23-8ed4-48160eaaad05")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 941.07 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afdeb66c-e329-400c-b67a-b9e8ab9a97f9")
-		(property "Reference" "#PWR079"
-			(at 941.07 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 940.308 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 941.07 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 941.07 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 941.07 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d69a155-b0f0-493e-b84b-67eef95bbfb6")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR079")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9296,7 +8096,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 346.71 226.06 0)
+		(at 165.1 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9305,8 +8105,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5723874-6428-44ed-a22d-c9292f242eb7")
-		(property "Reference" "C24"
-			(at 346.964 223.774 0)
+		(property "Reference" "C5"
+			(at 165.354 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9317,7 +8117,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 346.964 228.346 0)
+			(at 165.354 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9328,7 +8128,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 347.6752 229.87 0)
+			(at 166.0652 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9339,7 +8139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 226.06 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9350,7 +8150,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 346.71 226.06 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,7 +8169,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C24")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9377,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 411.48 199.39 0)
+		(at 236.22 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9386,8 +8186,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6a33eb6-eece-4530-8947-665db3b5b773")
-		(property "Reference" "#PWR083"
-			(at 411.48 205.74 0)
+		(property "Reference" "#PWR023"
+			(at 236.22 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9398,7 +8198,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 413.766 199.39 0)
+			(at 238.506 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9408,7 +8208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 411.48 199.39 0)
+			(at 236.22 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9419,7 +8219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 411.48 199.39 0)
+			(at 236.22 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,7 +8230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 411.48 199.39 0)
+			(at 236.22 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,7 +8246,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR083")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9454,7 +8254,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 330.2 226.06 0)
+		(at 148.59 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9463,8 +8263,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9e9dd51-631f-409b-ae0d-61a16fc2923c")
-		(property "Reference" "C23"
-			(at 330.454 223.774 0)
+		(property "Reference" "C4"
+			(at 148.844 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9475,7 +8275,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 330.454 228.346 0)
+			(at 148.844 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9486,7 +8286,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 331.1652 229.87 0)
+			(at 149.5552 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9497,7 +8297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 226.06 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9508,7 +8308,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 330.2 226.06 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9527,90 +8327,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 986.79 213.36 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be5e8bff-16e4-4a59-b0ea-10e03e54e18e")
-		(property "Reference" "Q13"
-			(at 986.79 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NX7002AK"
-			(at 988.06 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 986.79 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 986.79 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
-			(at 986.79 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "97b99ed1-8386-4251-be98-5f0fe94fa38b")
-		)
-		(pin "3"
-			(uuid "269028d5-6317-4786-95c7-c86d6e41ef75")
-		)
-		(pin "1"
-			(uuid "6406b57b-7707-4e54-b66c-e99d01b3d064")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "Q13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9618,7 +8335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 297.18 231.14 0)
+		(at 115.57 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9627,8 +8344,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be9fcb25-d642-4f23-92eb-d883069c7141")
-		(property "Reference" "#PWR0128"
-			(at 297.18 237.49 0)
+		(property "Reference" "#PWR07"
+			(at 115.57 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,7 +8356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.466 231.14 0)
+			(at 117.856 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9649,7 +8366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 231.14 0)
+			(at 115.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9660,7 +8377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 231.14 0)
+			(at 115.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9671,7 +8388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 231.14 0)
+			(at 115.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,7 +8404,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0128")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9695,85 +8412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 994.41 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf687c50-91f9-4769-aa15-68f15db115e5")
-		(property "Reference" "#PWR091"
-			(at 994.41 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 998.982 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 994.41 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 994.41 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 994.41 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21ebaf9b-8f99-4941-be9b-a3afe5c4f422")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 313.69 231.14 0)
+		(at 132.08 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9782,8 +8421,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0a009da-6eb1-4ed5-9464-ab952aa38f23")
-		(property "Reference" "#PWR0131"
-			(at 313.69 237.49 0)
+		(property "Reference" "#PWR010"
+			(at 132.08 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9794,7 +8433,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 315.976 231.14 0)
+			(at 134.366 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9804,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 231.14 0)
+			(at 132.08 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9815,7 +8454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 231.14 0)
+			(at 132.08 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9826,7 +8465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 231.14 0)
+			(at 132.08 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9842,166 +8481,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 1008.38 177.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2dc8718-a37b-45ff-82bb-865e009091a9")
-		(property "Reference" "SW9"
-			(at 1008.38 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 986.282 171.704 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "sthymuli:XKB5858"
-			(at 1013.46 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1013.46 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 1008.38 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7c6096e0-e228-4427-b89b-9978635a43b8")
-		)
-		(pin "1"
-			(uuid "20498ca7-6e63-4bd0-a3f3-6d575580cb7e")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 999.49 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6409c06-8f8d-4f55-97e4-c62dd05ccabc")
-		(property "Reference" "#PWR0100"
-			(at 999.49 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 995.934 199.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 999.49 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 999.49 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 999.49 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32d4830e-3e96-4ad6-baf0-746044008702")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0100")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10009,7 +8489,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:LSM6DS3")
-		(at 411.48 181.61 0)
+		(at 236.22 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10018,8 +8498,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c84df24f-d18e-47fe-add9-63bb09ca7451")
-		(property "Reference" "U13"
-			(at 398.526 167.894 0)
+		(property "Reference" "U3"
+			(at 223.266 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10030,7 +8510,7 @@
 			)
 		)
 		(property "Value" "LSM6DS3"
-			(at 415.29 195.58 0)
+			(at 240.03 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10041,7 +8521,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
-			(at 401.32 199.39 0)
+			(at 226.06 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10053,7 +8533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf"
-			(at 414.02 198.12 0)
+			(at 238.76 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10064,7 +8544,7 @@
 			)
 		)
 		(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"
-			(at 411.48 181.61 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,92 +8599,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kitprisme:ITR9909")
-		(at 961.39 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb813c31-1f9f-4d8a-ac83-9fbe487da811")
-		(property "Reference" "U19"
-			(at 974.344 180.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ITR9909"
-			(at 949.96 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "sthymuli:ITR_9909_Vertical"
-			(at 961.39 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 961.39 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 961.39 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "95e79aee-b0f8-43fa-8bf5-2a6069e4b6de")
-		)
-		(pin "2"
-			(uuid "db836d68-26aa-4c21-9b4a-90542fe0db22")
-		)
-		(pin "4"
-			(uuid "4735b432-0235-4be5-bf94-5079ddba4c38")
-		)
-		(pin "1"
-			(uuid "681c3a6d-140f-4f8a-981c-b940a0269b1d")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U19")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10212,7 +8607,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 278.13 171.45 270)
+		(at 53.34 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10222,8 +8617,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb86c8fb-59f8-40e9-9341-06828d60cee8")
-		(property "Reference" "D26"
-			(at 280.67 169.8624 90)
+		(property "Reference" "D2"
+			(at 55.88 54.2924 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10234,7 +8629,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 280.67 172.4024 90)
+			(at 55.88 56.8324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10245,7 +8640,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 278.13 171.45 0)
+			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,7 +8651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 171.45 0)
+			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10267,7 +8662,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 278.13 171.45 0)
+			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,7 +8681,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D26")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10294,7 +8689,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 363.22 231.14 0)
+		(at 181.61 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10303,8 +8698,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d705f8bd-aec0-4149-b88a-52270cebc30e")
-		(property "Reference" "#PWR0142"
-			(at 363.22 237.49 0)
+		(property "Reference" "#PWR018"
+			(at 181.61 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,7 +8710,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.506 231.14 0)
+			(at 183.896 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10325,7 +8720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 231.14 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +8731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 231.14 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +8742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 231.14 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10363,7 +8758,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0142")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10371,7 +8766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 66.04 0)
+		(at 114.3 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10380,8 +8775,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d81cef0a-bdda-4c11-8063-9c727a191897")
-		(property "Reference" "#PWR0150"
-			(at 351.79 72.39 0)
+		(property "Reference" "#PWR015"
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +8787,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 354.076 66.04 0)
+			(at 116.586 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10402,7 +8797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 66.04 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10413,7 +8808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 66.04 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10424,7 +8819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 66.04 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +8835,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0150")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10448,163 +8843,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 929.64 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc74c905-cd38-40bf-ade9-f2a7a733d69e")
-		(property "Reference" "#PWR067"
-			(at 929.64 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 929.894 201.168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 929.64 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 929.64 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 929.64 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d8860c6-698a-489e-ab0e-6485286a8c34")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 994.41 215.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de08edd8-7637-4973-8811-ed19b0e0f409")
-		(property "Reference" "#PWR092"
-			(at 994.41 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 998.982 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 994.41 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 994.41 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 994.41 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddd69f83-8c91-4715-af50-0e0f1d7f7d7e")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 320.04 59.69 0)
+		(at 114.3 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10613,8 +8852,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee0d8f4-ab16-48e6-9bab-3cfbe679932c")
-		(property "Reference" "#PWR0151"
-			(at 320.04 63.5 0)
+		(property "Reference" "#PWR011"
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,7 +8864,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 320.294 57.658 0)
+			(at 107.95 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10636,7 +8875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 59.69 0)
+			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +8886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 59.69 0)
+			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10658,7 +8897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 320.04 59.69 0)
+			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10674,7 +8913,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0151")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10682,7 +8921,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 359.41 156.21 90)
+		(at 265.43 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10691,8 +8930,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e45290e7-b209-414a-ad46-0d5615570dc5")
-		(property "Reference" "R62"
-			(at 358.14 158.496 90)
+		(property "Reference" "R3"
+			(at 264.16 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10702,7 +8941,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 359.664 154.178 90)
+			(at 265.684 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10712,7 +8951,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 359.41 157.988 90)
+			(at 265.43 46.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +8962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 156.21 0)
+			(at 265.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,7 +8973,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 359.41 156.21 0)
+			(at 265.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10753,7 +8992,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R62")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10761,7 +9000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 256.54 0)
+		(at 95.25 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10770,8 +9009,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e57564b3-0b8a-493c-959f-ba409cd24355")
-		(property "Reference" "#PWR0148"
-			(at 276.86 262.89 0)
+		(property "Reference" "#PWR03"
+			(at 95.25 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +9021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.146 256.54 0)
+			(at 97.536 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10792,7 +9031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 256.54 0)
+			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,7 +9042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 256.54 0)
+			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +9053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 256.54 0)
+			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10830,7 +9069,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0148")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10838,7 +9077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 189.23 0)
+		(at 266.7 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10847,8 +9086,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9688cae-fbf1-440d-976d-36f49e6991b7")
-		(property "Reference" "#PWR090"
-			(at 360.68 195.58 0)
+		(property "Reference" "#PWR017"
+			(at 266.7 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +9098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.252 187.452 0)
+			(at 271.272 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10870,7 +9109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 189.23 0)
+			(at 266.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +9120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 189.23 0)
+			(at 266.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10892,7 +9131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 189.23 0)
+			(at 266.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10908,7 +9147,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR090")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10916,7 +9155,7 @@
 	)
 	(symbol
 		(lib_id "kitprisme:ITR9909")
-		(at 327.66 162.56 0)
+		(at 233.68 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10925,8 +9164,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f10c3842-9051-46a0-950b-4e7e4f778591")
-		(property "Reference" "U17"
-			(at 340.614 153.924 0)
+		(property "Reference" "U1"
+			(at 246.634 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10936,7 +9175,7 @@
 			)
 		)
 		(property "Value" "ITR9909"
-			(at 316.23 153.67 0)
+			(at 222.25 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10946,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
-			(at 327.66 162.56 0)
+			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10957,7 +9196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 162.56 0)
+			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10968,7 +9207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 162.56 0)
+			(at 233.68 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,171 +9232,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 1013.46 175.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f72e3fd2-42b6-4c77-a75b-f798376a8b3e")
-		(property "Reference" "SW10"
-			(at 1013.714 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 988.314 169.164 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "sthymuli:XKB5858"
-			(at 1018.54 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1018.54 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 1013.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7e3aa059-22bc-4ed5-b046-a2ae8b6f58a7")
-		)
-		(pin "1"
-			(uuid "431dd098-a6e0-42d1-bf8a-2541edad2c15")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 986.79 193.04 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc1d099d-b540-4928-96f0-ad5c72200ae1")
-		(property "Reference" "Q12"
-			(at 986.79 199.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NX7002AK"
-			(at 988.314 201.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 986.79 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 986.79 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
-			(at 986.79 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "52317e35-816c-4487-9d95-1a6d82b3249a")
-		)
-		(pin "3"
-			(uuid "ef3df9d6-5e59-4513-908e-afccc3436a11")
-		)
-		(pin "1"
-			(uuid "2556dd00-03a5-42bd-a5dc-ae1dbc7c71fe")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard.kicad_pro"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "Q12")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11165,7 +9240,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 363.22 226.06 0)
+		(at 181.61 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11174,8 +9249,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc68a15c-8f3f-4f2c-ba4a-bc8ae003c81b")
-		(property "Reference" "C25"
-			(at 363.474 223.774 0)
+		(property "Reference" "C6"
+			(at 181.864 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11186,7 +9261,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 363.474 228.346 0)
+			(at 181.864 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11197,7 +9272,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 364.1852 229.87 0)
+			(at 182.5752 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11208,7 +9283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 226.06 0)
+			(at 181.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11219,7 +9294,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 363.22 226.06 0)
+			(at 181.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +9313,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C25")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11246,7 +9321,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 297.18 226.06 0)
+		(at 115.57 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11255,8 +9330,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd111b9d-28a5-4db3-950f-d2f533959fe8")
-		(property "Reference" "C21"
-			(at 297.434 223.774 0)
+		(property "Reference" "C2"
+			(at 115.824 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11267,7 +9342,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 297.434 228.346 0)
+			(at 115.824 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11278,7 +9353,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 298.1452 229.87 0)
+			(at 116.5352 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11289,7 +9364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 226.06 0)
+			(at 115.57 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11300,7 +9375,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 297.18 226.06 0)
+			(at 115.57 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +9394,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C21")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11327,7 +9402,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 181.61 0)
+		(at 50.8 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11336,8 +9411,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd6e89f7-8074-4fa6-be1a-20662cf07af6")
-		(property "Reference" "#PWR0152"
-			(at 247.65 187.96 0)
+		(property "Reference" "#PWR01"
+			(at 50.8 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,7 +9423,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 249.936 181.61 0)
+			(at 53.086 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11358,7 +9433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 181.61 0)
+			(at 50.8 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,7 +9444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 181.61 0)
+			(at 50.8 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +9455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 181.61 0)
+			(at 50.8 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11396,7 +9471,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0152")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11404,7 +9479,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Counter_Clockwise")
-		(at 327.66 69.85 0)
+		(at 137.16 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11413,8 +9488,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fddcdbb9-c49e-43a7-95ed-d4cbf6797cd4")
-		(property "Reference" "J8"
-			(at 329.184 49.276 0)
+		(property "Reference" "J1"
+			(at 138.684 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11424,7 +9499,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Counter_Clockwise"
-			(at 329.184 52.324 0)
+			(at 138.684 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11433,8 +9508,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 327.66 69.85 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical_SMD"
+			(at 137.16 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +9520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 69.85 0)
+			(at 137.16 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +9531,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 327.66 69.85 0)
+			(at 137.16 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +9592,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11525,7 +9600,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 231.14 0)
+		(at 99.06 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11534,8 +9609,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe11ca0f-b29d-4a29-8b1a-602ac4418472")
-		(property "Reference" "#PWR0125"
-			(at 280.67 237.49 0)
+		(property "Reference" "#PWR04"
+			(at 99.06 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11546,7 +9621,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 282.956 231.14 0)
+			(at 101.346 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11556,7 +9631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 231.14 0)
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11567,7 +9642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 231.14 0)
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11578,7 +9653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 231.14 0)
+			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11594,7 +9669,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0125")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11602,7 +9677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 231.14 0)
+		(at 148.59 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11611,8 +9686,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fee0cc3a-0345-4228-a817-f81241903a6f")
-		(property "Reference" "#PWR0136"
-			(at 330.2 237.49 0)
+		(property "Reference" "#PWR012"
+			(at 148.59 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11623,7 +9698,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.486 231.14 0)
+			(at 150.876 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11633,7 +9708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 231.14 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11644,7 +9719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 231.14 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11655,7 +9730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 231.14 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +9746,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0136")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11679,7 +9754,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 295.91 176.53 0)
+		(at 201.93 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11688,8 +9763,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fff1ab14-b385-4667-b3da-7edd9185e071")
-		(property "Reference" "#PWR065"
-			(at 295.91 180.34 0)
+		(property "Reference" "#PWR06"
+			(at 201.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +9775,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 296.164 174.498 0)
+			(at 202.184 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11711,7 +9786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 176.53 0)
+			(at 201.93 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,7 +9797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 176.53 0)
+			(at 201.93 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11733,7 +9808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 295.91 176.53 0)
+			(at 201.93 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +9824,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard.kicad_pro"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR065")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
