@@ -5046,7 +5046,7 @@
 			)
 		)
 	)
-	(global_label "btn_DOWN"
+	(global_label "btn_A"
 		(shape input)
 		(at 48.26 142.24 90)
 		(fields_autoplaced yes)
@@ -5058,7 +5058,7 @@
 		)
 		(uuid "1d3b50cd-012a-4927-8993-4014e4846349")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 129.8811 90)
+			(at 48.26 134.1749 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5334,7 +5334,7 @@
 			)
 		)
 	)
-	(global_label "btn_UP"
+	(global_label "btn_B"
 		(shape input)
 		(at 53.34 140.97 90)
 		(fields_autoplaced yes)
@@ -5346,7 +5346,7 @@
 		)
 		(uuid "aea57b4b-80fb-481f-a640-106e6105e284")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 131.393 90)
+			(at 53.34 132.7235 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5406,7 @@
 			)
 		)
 	)
-	(global_label "btn_DOWN"
+	(global_label "btn_A"
 		(shape input)
 		(at 130.81 66.04 180)
 		(fields_autoplaced yes)
@@ -5418,7 +5418,7 @@
 		)
 		(uuid "d3c7f809-e6cb-485e-a934-776215c6f017")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.4511 66.04 0)
+			(at 122.7449 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5526,7 +5526,7 @@
 			)
 		)
 	)
-	(global_label "btn_UP"
+	(global_label "btn_B"
 		(shape input)
 		(at 130.81 68.58 180)
 		(fields_autoplaced yes)
@@ -5538,7 +5538,7 @@
 		)
 		(uuid "f3ab81f7-feea-48cb-a900-8ea85605433a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.233 68.58 0)
+			(at 122.5635 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
