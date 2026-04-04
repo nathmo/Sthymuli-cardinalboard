@@ -146,7 +146,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -259,7 +259,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2362200|1282700|55c63bcf-77c2-45da-be01-10c78c219e01|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "provided by the header"
+      ],
+      [
+        "power_pin_not_driven|952500|1371600|148186c7-90bf-4945-8491-c7fb7e5436f9|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "provided by the header"
+      ],
+      [
+        "power_pin_not_driven|952500|1524000|01a7eca5-edf4-494b-934d-0da710dc59e4|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "provided by the header"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -525,7 +538,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "exports/fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
