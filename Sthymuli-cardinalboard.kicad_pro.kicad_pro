@@ -60,7 +60,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "extra_footprint|175649716|93163198|5c06a7e0-a737-4144-9289-3e3ac5439d5e|00000000-0000-0000-0000-000000000000",
+          "just a logo, not a component"
+        ],
+        [
+          "missing_courtyard|130500000|90750000|94bb3cbf-09d6-4a78-8438-3a0c3b871c63|00000000-0000-0000-0000-000000000000",
+          "this is a logo, no need for courtyard"
+        ],
+        [
+          "missing_courtyard|175649716|93163198|5c06a7e0-a737-4144-9289-3e3ac5439d5e|00000000-0000-0000-0000-000000000000",
+          "this is a logo, no need for courtyard"
+        ],
+        [
+          "silk_overlap|196592106|102812285|1eb3fc71-3388-4093-8471-78aab28a3dcc|c42cef6b-8165-4474-979c-becc9fd63e5d",
+          "redrawn manually bolder... "
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -78,10 +95,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -95,14 +112,14 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -117,12 +134,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -261,16 +278,12 @@
   "erc": {
     "erc_exclusions": [
       [
-        "power_pin_not_driven|2362200|1282700|55c63bcf-77c2-45da-be01-10c78c219e01|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "provided by the header"
+        "pin_to_pin|2209800|1358900|02ae252e-54dc-41ef-9602-39cd57f402bd|3b84adca-13f6-4bd4-8bb2-f98b22b55e7a|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "This is to set the mode + address, OK"
       ],
       [
-        "power_pin_not_driven|952500|1371600|148186c7-90bf-4945-8491-c7fb7e5436f9|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "provided by the header"
-      ],
-      [
-        "power_pin_not_driven|952500|1524000|01a7eca5-edf4-494b-934d-0da710dc59e4|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "provided by the header"
+        "pin_to_pin|2209800|1384300|c058d7b7-f9af-4557-91b2-a5bbbfaed73e|ed71273b-5903-4754-8ccf-47c54aea531f|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "This is to set the mode + address, OK"
       ]
     ],
     "meta": {
@@ -458,9 +471,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -479,14 +492,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
